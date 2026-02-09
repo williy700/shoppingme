@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom"; // use this for navigation
+import { Link } from "react-router-dom";
+import "../Component/navbar.css";
 
-const Navbar: React.FC = () => {
+function Navbar() {
   return (
     <nav className="navbar">
       <h2 className="logo">MyShop</h2>
@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
       </ul>
     </nav>
   );
-};
+}
 
 export default Navbar;
 

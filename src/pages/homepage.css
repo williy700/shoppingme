@@ -90,8 +90,11 @@
 
 /* Outfits */
 .outfits {
-  padding: 2rem;
+  padding: 22rem;
+  padding-bottom: 4rem;
   text-align: center;
+  background: #f0f0f0;
+  margin-bottom: 30px;
 }
 
 .outfit-grid {
@@ -129,7 +132,7 @@
 
 /* Section color variations */
 .outfits.trending {
-  background: #fafafa;
+  background: #f0f0f0;
 }
 
 .outfits.past {
